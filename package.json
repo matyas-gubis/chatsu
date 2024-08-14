@@ -1,25 +1,41 @@
 {
-  "name": "chatsu",
+  "name": "chatsu-server",
   "version": "1.0.0",
-  "description": "A chat application, where you have to hit the characters like in the game OSU! to send your message.",
-  "main": "index.js",
+  "description": "The websocket server for chatsu",
+  "main": "dist/server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node server.js",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matyas-gubis/chatsu.git"
   },
   "keywords": [
-    "chat",
-    "osu",
-    "socket",
-    "characters"
+    "server",
+    "chatsu"
   ],
   "author": "Mátyás János Gubis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/matyas-gubis/chatsu/issues"
   },
-  "homepage": "https://github.com/matyas-gubis/chatsu#readme"
+  "homepage": "https://github.com/matyas-gubis/chatsu#readme",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
 }

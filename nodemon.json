@@ -1,0 +1,4 @@
+{
+    "ext": "ts,js,html,css,json",
+    "exec": "npx tsx server.ts"
+}
