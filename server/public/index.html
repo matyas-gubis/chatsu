@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatsu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"
+        integrity="sha512-11t8Q+vY9JlCrr+PveZKTYJq8n7O09Y5X/pk/aMd3vJugSvu4xOunGEUzaADqL3I8cZKE/pBwwCfXzDkRJh2sQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" defer src="app.js"></script>
+</head>
+
+<body>
+    <div id="game"></div>
+    <form id="form">
+        <input type="text" placeholder="name" name="name" id="name">
+        <input type="text" placeholder="message" name="message" id="message">
+        <button type="submit" id="send">Send</button>
+    </form>
+    <ul id="messages">
+    </ul>
+    <p id="typing"></p>
+
+</body>
+
+</html>

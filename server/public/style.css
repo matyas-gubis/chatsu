@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: darkslategrey;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#tutorial-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#tutorial {
+    padding: 2rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    color: white;
+    gap: 1rem;
+    background-color: rgba(11, 33, 33, 0.674);
+    border: 1px solid darkseagreen;
+    backdrop-filter: blur(5px);
+}
+
+#game {
+    content: '';
+    position: relative;
+    height: 90vh;
+    border: 1px solid darkseagreen;
+    border-radius: 3px;
+    box-sizing: border-box;
+    left: 5px;
+}
+
+#form {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+}
+
+#send {
+    flex-grow: 2;
+}
+
+#message {
+    flex-grow: 3;
+}
+
+#send {
+    flex-grow: 1;
+}
+
+input,
+button {
+    box-sizing: border-box;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: darkseagreen solid 1px;
+    background: none;
+    color: darkseagreen;
+}
+
+input {
+    color: darksalmon;
+}
+
+input::placeholder {
+    color: darkseagreen;
+}
+
+button:hover {
+    cursor: pointer;
+    color: darksalmon;
+    border-color: darksalmon;
+}
+
+#messages {
+    content: '';
+    position: absolute;
+    top: 0;
+    border: 1px solid darkseagreen;
+    border-radius: 3px;
+    width: 300px;
+    height: 90vh;
+    padding-left: 2rem;
+    padding-top: 10px;
+    overflow-y: auto;
+    color: darkseagreen;
+    box-sizing: border-box;
+}
+
+#popup {
+    position: absolute;
+    border-radius: 1000rem;
+    border: solid darkseagreen 1px;
+    background-color: crimson;
+    backdrop-filter: blur(5px);
+    padding: 5rem;
+    font-size: 5rem;
+    box-sizing: border-box;
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlewrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+}
+
+.circle {
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10rem;
+    border: solid 2px coral;
+    animation-name: shrink;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+#circle1 {
+    width: 2rem;
+    height: 2rem;
+}
+
+@keyframes shrink {
+    from {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    to {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+.letter {
+    position: absolute;
+    font-size: 2rem;
+    border: 3px solid grey;
+    background-color: beige;
+    border-radius: 100%;
+    padding: 1rem;
+    text-align: center;
+    line-height: 10px;
+    width: 1rem;
+    height: 1rem;
+}

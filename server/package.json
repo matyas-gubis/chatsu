@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A chat application, where you have to hit the characters like in the game OSU! to send your message.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyas-gubis/chatsu.git"
+  },
+  "keywords": [
+    "chat",
+    "osu",
+    "socket",
+    "characters"
+  ],
+  "author": "Mátyás János Gubis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matyas-gubis/chatsu/issues"
+  },
+  "homepage": "https://github.com/matyas-gubis/chatsu#readme"
+}
