@@ -2,6 +2,9 @@
 A chat application, where you have to hit the characters like in the game OSU! to send your message.
 ![Gameplay](screenshot2.png?raw=true "Gameplay")
 
+## Try chatsu without any hassle
+Until I can set up my proxies correctly, you can reach chatsu on this link: http://koczka.ddns.net:3000/
+
 ## How to start the project
 To start the project, go to the server folder and run 
 ```
