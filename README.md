@@ -1,5 +1,6 @@
 # chatsu
 A chat application, where you have to hit the characters like in the game OSU! to send your message.
+![Gameplay](screenshot2.png?raw=true "Gameplay")
 
 ## How to start the project
 To start the project, go to the server folder and run 
@@ -20,6 +21,7 @@ Hit enter or click the Send button.
 This will start the game, where the letters of your message will appear one-by one.  
 Each letter will be surrounded by a shrinking circle.  
 When the circle reaches the edge of the letter, hit the appropriate letter on your keyboard.  
+![How to play](screenshot1.png?raw=true "How to play")
 
 Only those letters will be sent as a message, that you could hit correctly.
 
@@ -27,7 +29,7 @@ Enjoy, and have fun :D
 
 ## Hackathon
 This is a submission to the [Hackathon with Lewis](https://hackathon.lewismenelaws.com/).  
-The topic was `Functionally Dysfunctional`, so I came up with this idea, to combine a chat app with the game OSU!
-This was my first Hackathon I ever attempted to.
+The topic was `Functionally Dysfunctional`, so I came up with this idea, to combine a chat app with the game OSU!  
+This was my first Hackathon I ever attempted to.  
 
-From the 7 available days, I could only spend 8-10 hours to work on this project, so it misses certain features that I wanted to implement.
+From the 7 available days, I could only spend 8-10 hours to work on this project, so it misses certain features that I wanted to implement.  
